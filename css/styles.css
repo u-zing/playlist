@@ -1,0 +1,30 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import "firstbox.css";
+@import "secondbox.css";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7f7f7;
+  height: 1000%;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.screen {
+  width: 380px;
+  height: 720px;
+  background-color: white;
+  margin: 70px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.199);
+}
+.satus-bar {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

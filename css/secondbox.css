@@ -1,0 +1,68 @@
+.november {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.november__img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 0 20px 20px -5px #fe9e78ad;
+  margin-bottom: 60px;
+}
+.november__text h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.november__text h3 {
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.3;
+}
+.play-time {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.4;
+  margin-right: 10px;
+}
+.time-bar {
+  margin-top: 10px;
+  width: 330px;
+  height: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.time-bar__bar {
+  position: absolute;
+  height: 3px;
+  width: 200px;
+  background-color: black;
+}
+.time-bar__circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  top: -3px;
+  right: 0px;
+}
+.play-btn {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.play-btn i:first-child,
+.play-btn i:last-child {
+  opacity: 0.3;
+}
+.play-btn i:nth-child(3) {
+  font-size: 60px;
+}
